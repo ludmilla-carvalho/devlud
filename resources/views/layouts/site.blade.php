@@ -10,6 +10,9 @@
 
     <base href="{{ route('site.index') }}" />
 
+    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+
     <title>{{ config('app.name', 'Laravel') }}</title>
     <meta name="description" content="Programadora, desenvolvimento web, Front-end e Back-end (Full-stack). Sites responsivos.">
     <meta name="keywords" content="Desenvolvimento web, Front-end, Back-end, Full-stack, php, thml5, wordpress, css, laravel, cakephp"/>
