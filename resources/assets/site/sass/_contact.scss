@@ -1,0 +1,28 @@
+#contact{
+    min-height: 500px;
+    .frm{
+        margin-bottom: 20px;
+    }
+    .btn-default {
+        color: $isabeline;
+        background-color: $eggplant;
+        border-color: $darkpurple;
+    }
+    .alert-warning, .alert-success {
+        background-color: $eggplant;
+        border-color: $darkpurple;
+        color: $isabeline;
+    }
+    .close{
+        color: $isabeline;
+        opacity: 1;
+    }
+    .close:hover, .close:focus {
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+     
+}

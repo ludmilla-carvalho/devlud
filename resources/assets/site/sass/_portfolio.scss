@@ -1,0 +1,146 @@
+
+#portfolio{
+    background-color: $x11grey;
+    padding-bottom: 30px;
+    .up{
+        background: url('/images/tri-port-up.png') repeat-x;
+        height: 5px;
+        background-color: $isabeline;
+    }
+    .tit{
+        padding-bottom: 30px;
+    }
+    .tit-home{
+        margin-top: 0;
+    }
+    .img{
+        padding-bottom: 20px;
+        .link{
+            color: $isabeline;
+            text-decoration: none;
+            text-shadow: 1px 0px 18px rgba(0, 0, 0, 1)
+        }
+       .image{
+        width: 360px;
+        border-radius: 15px;
+       }
+       .info{
+            width: 360px;
+            height: 217px;
+            margin-top: -217px;
+            background-color: $darkpurple;
+            border-radius: 15px;
+            padding: 20px 15px 0 15px;
+            opacity: 0.68;
+            display: none;
+            .details{
+                height: 140px;
+                .nome{
+                    display: block; 
+                    font-family: $font-OpSans;
+                    font-weight: 700;
+                    font-size: em(30);
+                    line-height: 0.9;
+                }
+                .agencia{
+                    font-family: $font-OpSans;
+                    font-size: em(14);
+                    font-weight: 300;
+                    margin-top: 13px;   
+                }
+            }
+            .tec{
+                .item{
+                    height: 30px;
+                }
+            }
+        }
+    }
+    .infos{
+        .link{
+            color: $darkpurple;
+        }
+        .link:hover{
+            color: $eggplant;
+        }
+        .date{
+            font-family: $font-Roboto;
+            font-size: em(14);
+        }
+        .agencia{
+
+        }
+        .habilidades, .desc{
+            padding-top:30px;
+        }
+        .desc{
+            margin-bottom: 30px;
+        }
+    }
+    .breadcrumb {
+        color: $isabeline;
+        .item, .active{
+            color: $isabeline;
+        }
+        .active::before {
+            color: $isabeline;
+        }
+    }
+    .btn-default {
+        color: $isabeline;
+        background-color: $eggplant;
+        border-color: $darkpurple;
+    }
+}
+.down-portfolio{
+    background: url('/images/tri-port-down.png') repeat-x;
+    height: 5px;
+    background-color: $isabeline;
+}
+
+@media screen and (max-width: 1200px) {
+    #portfolio{
+        .img{
+            .image{
+                width: 293px;
+            }
+            .info{
+                width: 293px;
+                height: 176px;
+                margin-top: -176px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #portfolio{
+        .img{
+            .image{
+                width: 345px;
+            }
+            .info{
+                width: 345px;
+                height: 208px;
+                margin-top: -208px;
+            }
+        }
+        .p_child:last-child{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #portfolio{
+        .img{
+            text-align: center;
+        }
+        .info{
+            margin: -208px auto 0 auto;
+        }
+        .p_child:last-child{
+            display: block;
+        }
+    }
+}

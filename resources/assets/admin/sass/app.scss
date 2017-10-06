@@ -1,0 +1,24 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+//@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~font-awesome/scss/font-awesome";
+//@import "~gentelella/src/scss/custom";
+
+.clear{
+    clear: both;
+}
+
+.c-move{
+    cursor: move;
+}
+
+.port_img{
+    padding-bottom: 15px;
+    //clear: both
+    //float: left;
+}

@@ -1,0 +1,46 @@
+#me{
+    .up{
+        background: url('/images/tri-me-up.png') repeat-x;
+        height: 5px
+    }
+    .cont{
+        background-color: $rocketmetallic;
+        padding: 30px 0;
+        color: $isabeline;
+        .sobre{
+            padding-top: 30px;
+        }
+        a{
+            color: $darkpurple;
+        }
+        .item{
+            padding-top: 10px;
+        }
+        .item:first-child{
+            padding-top: 0;
+        }
+    }
+    .down{
+        background: url('/images/tri-me-down.png') repeat-x;
+        height: 5px;
+        background-color: $x11grey;
+    }
+    .down-single{
+        background: url('/images/tri-me-down.png') repeat-x;
+        height: 5px;
+    }
+    .jobs{
+        font-size: em(15);
+        padding-bottom: 20px;
+        .time{
+            font-family: $font-Roboto;
+        }
+        .place,.job{
+            font-weight: bold;
+        }
+        .description{
+
+        }
+    }
+     
+}
