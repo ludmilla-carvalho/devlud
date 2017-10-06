@@ -42,7 +42,12 @@ $(document).ready(function () {
     $('#'+id).hide();
   });
 
-  $('[data-toggle="popover"]').popover({
+  /*$('[data-toggle="popover"]').popover({
     html: true
-  }) 
+  }) */
+  $('.p_over').popover({html: true});
+
+  $('.p_over').on('click', function (e) {
+    $('.p_over').not(this).popover('hide');
+  });
 })

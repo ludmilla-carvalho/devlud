@@ -11,7 +11,7 @@
             <div class="container ">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h2 class="">Habilidades</h2>                        
+                        <h2 class="">Habilidades</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -27,7 +27,7 @@
                                 </div>
                                  @if(count($skill->certificates))
                                     <div class="certs">
-                                        <a tabindex="{{ $skill->id }}" onclick="event.preventDefault()" class="link" data-trigger="focus" data-container="body" data-toggle="popover" data-placement="auto" 
+                                        <a tabindex="{{ $skill->id }}" onclick="event.preventDefault()" class="link p_over" data-trigger="click" data-container="body" data-toggle="popover" data-placement="auto" 
                                         data-content='@foreach($skill->certificates as $item)
                         <a href="{{ $item->code }}" class="item" target="_blank">{{ $item->name }}</a><br> 
                         @endforeach' 

@@ -6,5 +6,7 @@
     "/css/site/site.css.map": "/css/site/site.css.map",
     "/css/admin/app.css.map": "/css/admin/app.css.map",
     "/js/admin/app.js": "/js/admin/app.js",
-    "/js/admin/app.js.map": "/js/admin/app.js.map"
+    "/js/admin/app.js.map": "/js/admin/app.js.map",
+    "/css/admin/gentelella.css": "/css/admin/gentelella.css",
+    "/js/admin/gentelella.js": "/js/admin/gentelella.js"
 }

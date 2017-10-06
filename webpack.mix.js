@@ -30,7 +30,7 @@ mix.sass('resources/assets/admin/sass/app.scss', 'public/css/admin')
   .sourceMaps()
 
 
- /*mix.styles(
+ mix.styles(
   [
     'node_modules/gentelella/vendors/nprogress/nprogress.css',
     'node_modules/gentelella/vendors/iCheck/skins/flat/green.css',
@@ -63,6 +63,6 @@ mix.scripts(
   ],
   'public/js/admin/gentelella.js'
 )
-*/
+
 
 mix.browserSync('localhost:8000')
